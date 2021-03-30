@@ -1,11 +1,12 @@
 # JSON::Name
 
-Provide a trait (and Attribute role) for JSON Marshal/Unmarshal where
-the JSON names aren't Perl identifiers
+Provide a trait (and Attribute role) for JSON Marshal/Unmarshal where the JSON names aren't Raku identifiers.
+
+![Build Status](https://github.com/jonathanstowe/JSON-Name/workflows/CI/badge.svg)
 
 ## Synopsis
 
-```perl6
+```raku
 use JSON::Name;
 
 class MyClass {
@@ -24,7 +25,7 @@ This is released as a dependency of
 [JSON::Unmarshal](https://github.com/tadzik/JSON-Unmarshal) in order to
 save duplication, it is intended to store a separate JSON name for an
 attribute where the name of the JSON attribute might be changed, either
-for aesthetic reasons or the name is not a valid Perl identifier. It will
+for aesthetic reasons or the name is not a valid Raku identifier. It will
 of course also be needed in classes thar are going to use JSON::Marshal
 or JSON::Unmarshal for serialisation/de-serialisation.
 
@@ -32,8 +33,7 @@ Of course it could be used in other modules for a similar purpose.
 
 ## Installation
 
-Assuming you have a working Rakudo Perl 6 installation you should be able to
-install this with *zef* :
+Assuming you have a working Rakudo installation you should be able to install this with *zef* :
 
     # From the source directory
    
@@ -54,4 +54,4 @@ This is free software.
 
 Please see the [LICENCE](LICENCE) file in the distribution
 
-© Jonathan Stowe 2015, 2016, 2017, 2019
+© Jonathan Stowe 2015 - 2021

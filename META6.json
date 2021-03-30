@@ -1,6 +1,6 @@
 {
   "name": "JSON::Name",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "auth": "github:jonathanstowe",
   "api": "1.0",
   "description": "Provides a trait to store an alternative JSON Name",
@@ -10,6 +10,7 @@
     "bugtracker": "https://github.com/jonathanstowe/JSON-Name/issues"
   },
   "perl": "6.*",
+  "raku": "6.*",
   "resources": [
   ],
   "depends": [
@@ -32,5 +33,5 @@
   "provides": {
     "JSON::Name": "lib/JSON/Name.pm"
   },
-  "meta-version": "0"
+  "meta-version": "1"
 }
