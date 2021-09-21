@@ -38,8 +38,11 @@ Of course it could be used in other modules for a similar purpose.
 
 
 
-module JSON::Name:ver<0.0.5>:auth<github:jonathanstowe> {
-    role NamedAttribute {
+module JSON::Name:ver<0.0.6>:auth<github:jonathanstowe> {
+
+    use JSON::OptIn;
+
+    role NamedAttribute does JSON::OptIn::OptedInAttribute {
         has Str $.json-name is rw;
     }
 

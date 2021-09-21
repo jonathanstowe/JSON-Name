@@ -1,3 +1,5 @@
+v0.0.6		Tue 21 Sep 09:04:16 BST 2021
+	* Bring in JSON::OptIn
 v0.0.5		Tue 30 Mar 14:33:04 BST 2021
 	* Light renaming
 	* Switch to GH actions for CI
