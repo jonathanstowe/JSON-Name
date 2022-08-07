@@ -1,3 +1,5 @@
+v0.0.7	Sun  7 Aug 09:44:20 BST 2022
+	* Upload to zef repository
 v0.0.6		Tue 21 Sep 09:04:16 BST 2021
 	* Bring in JSON::OptIn
 v0.0.5		Tue 30 Mar 14:33:04 BST 2021
@@ -10,3 +12,4 @@ v0.0.3      Thu 17 Jan 09:51:26 GMT 2019
 v0.0.2		Fri Mar 11 23:35:52 2016 +0000 
 	* Remove the version literal
 	* Add the POD
+

@@ -1,38 +1,37 @@
 {
-  "name": "JSON::Name",
-  "version": "0.0.6",
-  "auth": "github:jonathanstowe",
-  "api": "1.0",
-  "description": "Provides a trait to store an alternative JSON Name",
-  "source-url": "git://github.com/jonathanstowe/JSON-Name.git",
+  "test-depends": [
+    "Test"
+  ],
+  "license": "Artistic-2.0",
+  "raku": "6.*",
+  "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
+  "build-depends": [
+  ],
+  "authors": [
+    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
+  ],
   "support": {
     "source": "git://github.com/jonathanstowe/JSON-Name.git",
     "bugtracker": "https://github.com/jonathanstowe/JSON-Name/issues"
   },
-  "perl": "6.*",
-  "raku": "6.*",
   "resources": [
   ],
+  "provides": {
+    "JSON::Name": "lib/JSON/Name.rakumod"
+  },
+  "auth": "zef:jonathanstowe",
   "depends": [
-     "JSON::OptIn"
+    "JSON::OptIn"
   ],
-  "test-depends": [
-    "Test"
-  ],
-  "build-depends": [
-  ],
-  "author": "Jonathan Stowe <jns+git@gellyfish.co.uk>",
-  "authors": [
-    "Jonathan Stowe <jns+git@gellyfish.co.uk>"
-  ],
+  "description": "Provides a trait to store an alternative JSON Name",
+  "api": "1.0",
+  "version": "0.0.7",
   "tags": [
     "object",
     "serialisation",
     "JSON"
   ],
-  "license": "Artistic-2.0",
-  "provides": {
-    "JSON::Name": "lib/JSON/Name.rakumod"
-  },
-  "meta-version": "1"
+  "meta-version": "1",
+  "name": "JSON::Name",
+  "source-url": "git://github.com/jonathanstowe/JSON-Name.git"
 }
